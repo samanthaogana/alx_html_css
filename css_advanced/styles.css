@@ -1,11 +1,15 @@
+@font-face { font-family: SourceSansPro; src: url('Fonts/source-sans-pro/SourceSansPro-Regular.otf'); }
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: SourceSansPro, sans-serif;
     margin: 0;
     padding: 0;
+    /* background-color: black; */
+    background: transparent !important;
 }
 header {
-    background-color: #333;
-    color: #fff;
+    background: transparent !important;
+    /* color: #fff; */
     padding: 10px 0;
 }
 .nav-links {
@@ -13,6 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    background: transparent !important;
 }
 .nav-links ul {
     list-style: none;
@@ -36,26 +41,42 @@ header {
     }
 }
 .hero {
-    background-image: url("css_advanced\Images\Object.png");
+    background-image: url("/Images/Background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 50px 0;
-    color: black;
+    /* padding: 50px 0; */
+    color: white;
     text-align: center;
 }
+.hero_title {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.hero_title h1 {
+    font-size: 120px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
 .hero button {
-    padding: 10px 20px;
-    font-size: 1em;
-    background-color: #333;
+    padding: 10px 50px;
+    font-size: 14px;
+    background-color: #C271FF;
     color: #fff;
     border: none;
     cursor: pointer;
+    margin: 50px 10px;
+    border-radius: 22px;
+    height: 44px;
 }
 .hero span {
     display: block;
     font-size: 1.5em;
     margin-bottom: 10px;
+    margin: 5px;
 }
 .profiles {
     display: flex;
@@ -78,7 +99,7 @@ header {
 }
 .profile p {
     font-size: 0.9em;
-    color: black;
+    
 }
 .testimonial {
     display: flex;
@@ -125,11 +146,17 @@ header {
     font-size: 2em;
     margin-bottom: 20px;
 }
+.card-section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
 .tutorial-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    /* gap: 20px; */
     justify-content: center;
+    width: 100%;
 }
 .tutorial-card {
     display: flex;
@@ -138,7 +165,7 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     overflow: hidden;
-    flex-direction: column;
+    flex-direction: row;
     width: 300px;
 }
 
