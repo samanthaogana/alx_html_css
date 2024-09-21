@@ -1,9 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
 .nav-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
     padding: 0 20px;
 }
 .nav-links ul {
@@ -28,11 +36,292 @@
     }
 }
 .hero {
-    background-image: css_advanced\Images\Object.png;
+    background-image: url("css_advanced\Images\Object.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 50px 0;
-    color: #fff;
+    color: black;
     text-align: center;
+}
+.hero button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.hero span {
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.profiles {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.profile {
+    text-align: center;
+    margin: 10px;
+}
+.profile img {
+    border-radius: 50%; 
+    max-width: 150px; 
+    height: auto; 
+}
+.profile h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+.profile p {
+    font-size: 0.9em;
+    color: black;
+}
+.testimonial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.testimonial div {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.testimonial img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.testimonial blockquote {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.testimonial h3 {
+    font-size: 1.5em;
+    margin: 10px 0 5px;
+}
+
+.testimonial p {
+    font-size: 1em;
+    color: #666;
+}
+.popular-tutorials {
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.popular-tutorials h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.tutorial-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.tutorial-card {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    width: 300px;
+}
+
+.tutorial-card img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px 0 0 10px;
+}
+
+.tutorial-info {
+    padding: 20px;
+    flex: 1;
+}
+
+.tutorial-info h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.tutorial-info p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author h4 {
+    font-size: 1em;
+    margin: 0;
+}
+
+.rating {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.rating i {
+    color: #f39c12;
+    margin-right: 5px;
+}
+
+.tutorial-info p:last-child {
+    font-size: 0.9em;
+    color: #999;
+}
+.membership {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.membership h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.membership-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.membership-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+}
+
+.membership-item img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.membership-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.membership-item p {
+    font-size: 1em;
+    color: #ccc;
+}
+.register-btn-container {
+    display: flex;
+    justify-content: center;
+}
+.register-btn {
+    background-color: #6a1b9a;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+    display: block;
+}
+
+.register-btn:hover {
+    background-color: #4a148c;
+}
+.faq-container {
+    width: 80%;
+    max-width: 1200px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.faq-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-column {
+    width: 48%;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 1em;
+    color: #555;
+}
+footer {
+    background-color: #1C2331; 
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer img {
+    max-height: 50px; 
+}
+
+footer .fa-brands {
+    font-size: 1.5em; 
+    margin: 0 10px; 
+    color: white; 
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.8em; 
 }
