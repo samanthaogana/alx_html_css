@@ -1,0 +1,3 @@
+Welcome to my project! This website is built using pure HTML and CSS. It serves as a platform where users can purchase premium headphones that are versatile and deliver exceptional sound quality. These headphones are ideal for listening to music, watching movies, recording, and come with noise-cancelling features.
+We appreciate your interest in the Holberton School Project. We aim to create a user-friendly platform that is easy to access and use. Below, you’ll find the code of conduct that should be followed when interacting with the project.
+Our code is managed and tracked by Github, where we also manage issues and feature requests. We welcome and accept pull requests.
