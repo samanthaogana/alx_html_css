@@ -174,3 +174,124 @@ button {
     margin-bottom: 30px;
     flex-direction: row; 
 }
+
+.third-hero{
+    background-image: url("./images/headphones_hero_2.jpg");     
+    background-position: center;
+    height: 100vh;
+    color: #ffff;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.third-hero h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0.01px;
+    font-family: 'Source-Sans-Pro';
+    font-weight: 600px;
+    font-size: 32px;
+}
+
+.p-container{
+    display: flex;
+    justify-content: center;
+    font-family: 'Source-Sans-Pro';
+    font-weight: 400;
+    font-size: 16px;
+    width: 637px;
+    height: 104px;
+}
+
+.third-container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contact-container {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    width: 335px;
+    height: 373px;
+  }
+  
+  .contact-container h2 {
+    margin-bottom: 20px;
+    font-family: Source-Sans-Pro;
+    font-size: 32px;
+    font-weight: 600;
+  }
+  
+.contact-container input[type="text"],
+.contact-container input[type="email"],
+.contact-container textarea {
+    width: 100%; /* Full width */
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #fff; /* White text */
+    text-decoration: underline;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left; /* Align labels to the left */
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group textarea {
+    width: 100%; /* Full width */
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: transparent; /* Transparent background */
+    color: #000;
+    box-sizing: border-box;
+  }
+  
+  .form-group input[type="text"]:focus,
+  .form-group input[type="email"]:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-bottom: 2px solid #e74c3c; /* Change underline color on focus */
+  }
+
+  .form-group{
+    font-family: Source-Sans-Pro;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .contact-container button {
+    background-color: #FF6565; 
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 22px;
+    cursor: pointer;
+    width: 162px;
+    height: 44px;
+  }
+  
+  .contact-container button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }
+  
