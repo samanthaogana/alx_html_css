@@ -225,3 +225,66 @@ button {
     width: 190px;
     height: 190px;
 }
+
+@media (max-width: 480px) {
+    .header {
+        position: relative; /* Stack on mobile */
+        padding: 10px; /* Add padding */
+    }
+
+    .nav-links {
+        flex-direction: column; /* Stack nav links vertically */
+        align-items: center; /* Center items */
+        padding: 0; /* Remove padding */
+    }
+
+    .nav-links li {
+        margin: 10px 0; /* Space between items */
+    }
+
+    .nav-links a {
+        font-size: 14px; /* Increase font size */
+        padding: 8px; /* Adjust padding */
+    }
+
+    .hero {
+        height: auto; /* Adjust height */
+        padding: 20px; /* Add padding */
+        text-align: center; /* Center text */
+    }
+
+    .hero-title h1 {
+        font-size: 24px; /* Adjust font size */
+        margin-top: 50px; /* Reduce top margin */
+    }
+
+    .hero-bottom-container h2 {
+        font-size: 14px; /* Adjust font size */
+        margin-top: 20px; /* Reduce top margin */
+    }
+
+    .information-container {
+        margin-left: 0; /* Remove left margin */
+        width: 90%; /* Full width */
+        text-align: center; /* Center text */
+    }
+
+    .info-cards {
+        flex-direction: column; /* Stack info cards vertically */
+        align-items: center; /* Center items */
+        gap: 10px; /* Space between items */
+    }
+
+    .third-hero {
+        height: auto; /* Adjust height */
+        padding: 20px; /* Add padding */
+    }
+
+    .third-hero h2 {
+        font-size: 24px; /* Adjust font size */
+    }
+
+    .p-container {
+        width: 90%; /* Full width */
+    }
+}

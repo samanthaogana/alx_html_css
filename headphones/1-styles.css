@@ -177,3 +177,62 @@ button {
     margin-bottom: 30px;
     flex-direction: row; 
 }
+
+
+@media only screen and (max-width: 480px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .hero {
+        height: auto;
+        padding: 20px;
+    }
+
+    .hero-title h1 {
+        font-size: 24px;
+        margin-top: 100px;
+    }
+
+    .hero-bottom-container h2 {
+        font-size: 14px;
+        margin-top: 100px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .span-container {
+        font-size: 14px;
+    }
+
+    button {
+        width: 100px;
+        height: 36px;
+        font-size: 12px;
+    }
+
+    .information-container {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .info-content-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
