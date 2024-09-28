@@ -48,8 +48,11 @@ html{
 }
 .logo{
     margin-right: auto;
-    width: 161px;
-    height: 32px;
+    }
+
+    .logo img{
+      width: 161px;
+      height: 32px;
     }
 
 .hero{
@@ -119,7 +122,7 @@ button {
 
 .company-info{
     text-align: center;
-    margin: var(!important);
+    margin: var;
 }
 
 .company-info h2{
@@ -214,6 +217,15 @@ button {
     margin: 0 auto;
 }
 
+.pentagon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 80px;
+  width: 190px;
+  height: 190px;
+}
+
 .contact-container {
     background-color: #fff;
     color: #000;
@@ -222,8 +234,6 @@ button {
     max-width: 600px;
     margin: auto;
     text-align: center;
-    width: 335px;
-    height: 373px;
   }
   
   .contact-container h2 {
@@ -330,6 +340,8 @@ button {
   
   footer img {
     max-height: 50px;
+    width: 161px;
+    height: 32px;
   }
   
   footer .fa-brands {
