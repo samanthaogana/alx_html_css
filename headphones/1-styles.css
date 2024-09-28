@@ -47,10 +47,13 @@ html{
     font-size: 12px;
 }
 .logo{
-    margin-right: auto;
+    margin-right: auto; 
+    }
+
+.logo img{
     width: 161px;
     height: 32px;
-    }
+}
 
 .hero{
     background-image: url("./images/headphones_hero_1.jpg");
@@ -119,7 +122,7 @@ button {
 
 .company-info{
     text-align: center;
-    margin: var(!important);
+    margin: var;
 }
 
 .company-info h2{
