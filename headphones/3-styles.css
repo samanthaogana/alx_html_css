@@ -48,10 +48,12 @@ html{
 }
 .logo{
     margin-right: auto;
+}
+
+.logo img{
     width: 161px;
     height: 32px;
-    }
-
+ }
 .hero{
     background-image: url("./images/headphones_hero_1.jpg");
     background-size: cover;
@@ -119,7 +121,7 @@ button {
 
 .company-info{
     text-align: center;
-    margin: var(!important);
+    margin: var;
 }
 
 .company-info h2{
@@ -214,6 +216,15 @@ button {
     margin: 0 auto;
 }
 
+.pentagon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    width: 190px;
+    height: 190px;
+}
+
 .contact-container {
     background-color: #fff;
     color: #000;
@@ -222,8 +233,6 @@ button {
     max-width: 600px;
     margin: auto;
     text-align: center;
-    width: 335px;
-    height: 373px;
   }
   
   .contact-container h2 {
