@@ -55,6 +55,9 @@ html{
       height: 32px;
     }
 
+
+/* section */
+
 .hero{
     background-image: url("./images/headphones_hero_1.jpg");
     background-size: cover;
@@ -120,6 +123,9 @@ button {
     font-family: 'Source-Sans-Pro';
 }
 
+
+/* what we do section */
+
 .company-info{
     text-align: center;
     margin: var;
@@ -178,6 +184,9 @@ button {
     flex-direction: row; 
 }
 
+
+/* our results section */
+
 .third-hero{
     background-image: url("./images/headphones_hero_2.jpg");     
     background-position: center;
@@ -225,6 +234,9 @@ button {
   width: 190px;
   height: 190px;
 }
+
+
+/* contact us section */
 
 .contact-container {
     background-color: #fff;
@@ -309,6 +321,8 @@ button {
   }
 
   
+/* footer section */
+
   footer {
     background-color: #1c2331;
     color: white;
@@ -370,6 +384,8 @@ button {
     }
 }
 
+
+/* tablet responsive */
 
 @media screen and (max-width: 768px) {
   header {
@@ -454,4 +470,18 @@ button {
   .description .columns li {
      width: 50%;
   }
+}
+
+
+
+/* Add a smooth transition effect */
+.info-content,
+.pentagon img {
+  transition: transform 0.3s ease;
+}
+
+/* Scale up the items on hover */
+.info-content:hover,
+.pentagon img:hover {
+  transform: scale(1.1);
 }
