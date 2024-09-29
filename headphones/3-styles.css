@@ -54,6 +54,9 @@ html{
     width: 161px;
     height: 32px;
  }
+
+/* section */
+
 .hero{
     background-image: url("./images/headphones_hero_1.jpg");
     background-size: cover;
@@ -119,6 +122,9 @@ button {
     font-family: 'Source-Sans-Pro';
 }
 
+
+/* what we do section */
+
 .company-info{
     text-align: center;
     margin: var;
@@ -177,6 +183,8 @@ button {
     flex-direction: row; 
 }
 
+/* our results section */
+
 .third-hero{
     background-image: url("./images/headphones_hero_2.jpg");     
     background-position: center;
@@ -224,6 +232,8 @@ button {
     width: 190px;
     height: 190px;
 }
+
+/* contact us section */
 
 .contact-container {
     background-color: #fff;
@@ -307,6 +317,7 @@ button {
     overflow: hidden;
   }
 
+/* tablet responsive */
 
   @media screen and (max-width: 768px) {
     header {
