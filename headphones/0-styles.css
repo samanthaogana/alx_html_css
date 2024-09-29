@@ -117,35 +117,8 @@ button {
     font-family: 'Source-Sans-Pro';
 }
 
-
-
-@media screen and (max-width: 480px) {
-    header {
-       flex-wrap: wrap;
-       justify-content: center;
-    }
-    
-    header nav {
-       display: none;
-       flex-direction: column;
-       overflow: hidden;
-       max-height: 0;
-       transition: max-height .2s ease-out;
-       justify-content: center;
-    }
  
-    header nav li {
-       margin: 0 0;
-       padding-bottom: 3rem;
-    }
- 
-    header .menu-icon {
-       display: initial;
-       order: -1;
-    }
- }
- 
- 
+ /* section */
  
  .hero {
     position: relative;
@@ -170,4 +143,32 @@ button {
  .hero .button {
     box-shadow: 5px 1px 15px 2px rgba(0, 0, 0, 0.57);
     margin-bottom: 5rem;
+ }
+
+/* mobile responsive */
+
+ @media screen and (max-width: 480px) {
+    header {
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    
+    header nav {
+       display: none;
+       flex-direction: column;
+       overflow: hidden;
+       max-height: 0;
+       transition: max-height .2s ease-out;
+       justify-content: center;
+    }
+ 
+    header nav li {
+       margin: 0 0;
+       padding-bottom: 3rem;
+    }
+ 
+    header .menu-icon {
+       display: initial;
+       order: -1;
+    }
  }
